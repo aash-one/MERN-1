@@ -1,19 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-    <form action="/action_page.php">
-      <label for="fname">Email:</label><br>
-      <input type="text" id="email" name="email" ><br>
-      <label for="lname">Password:</label><br>
-      <input type="text" id="password" name="password"><br><br>
-      <input type="submit" value="Submit">
-    </form> 
-    
-</body>
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+        <style>
+            table,tr,td
+            {
+                background-color: aquamarine;
+                border-radius: 2%;
+                border: solid green 2px;
+                border-style: double;
+            }
+            body 
+            {
+                background-color: darkblue;
+                padding: 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+                <table>
+                    <tr><td ><label>USERNAME</label></td><td><input type="text" placeholder="Aashif@123" required></td></tr>
+                    <tr><td><label>EMAIL</label></td><td><input type="email" placeholder="Aashif@gmail.com" required></td></tr>
+                    <tr><td><label>PASSWORD</label></td><td><input type="password" required ></td></tr>
+                    <tr><td><label>SUBMIT</label></td><td><input type="submit"  ></td></tr>
+                </table>
+            </div>
+        </form>
+    </body>
 </html>
